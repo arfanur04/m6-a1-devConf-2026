@@ -66,4 +66,38 @@
 
 .banner-text h1 {
 	font-size: 50px;
+	font-weight: bold;
+}
+
+.section-title {
+	margin-top: 100px;
+	font-size: 40px;
+	font-weight: bold;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.meet-container {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 16px;
+}
+
+.meet-card {
+	border: 1px solid rgb(210, 209, 209);
+	border-radius: 5px;
+}
+
+.meet-card img {
+	width: 100%;
+}
+
+.meet-card-text h3 {
+	font-size: 20px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+.meet-card-text {
+	padding: 20px;
 }
