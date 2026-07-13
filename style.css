@@ -1,0 +1,69 @@
+.roboto-font {
+	font-family: "Roboto", sans-serif;
+	font-optical-sizing: auto;
+	font-style: normal;
+	font-variation-settings: "wdth" 100;
+}
+
+.max-width {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 8px auto;
+}
+
+.navLink {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.navLink li {
+	list-style: none;
+}
+
+.navLink a {
+	margin: 0 10px;
+	text-decoration: none;
+	color: gray;
+}
+
+.button {
+	background: blue;
+	color: white;
+	padding: 10px 20px;
+	border-radius: 5px;
+	font-weight: bold;
+	cursor: pointer;
+	border: none;
+}
+
+.banner {
+	background-image:
+		linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+		url("./assets/banner.jpg");
+	background-size: cover;
+	background-position: center;
+	height: 500px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+}
+
+.banner-text {
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 400px;
+}
+
+.banner-text h1 {
+	font-size: 50px;
+}
