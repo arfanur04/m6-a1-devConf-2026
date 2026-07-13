@@ -184,3 +184,42 @@
 .secure-spot-dark .secure-spot-price {
 	color: lightgray;
 }
+
+.footer {
+	padding: 20px;
+	background: #000;
+	color: #f4f6f9;
+	text-align: center;
+}
+
+.footer-top {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.footer-logo {
+	font-weight: bold;
+	color: #0078d7;
+}
+
+.footer-social .icon {
+	margin: 0 6px;
+	text-decoration: none;
+	color: #0078d7;
+}
+
+.footer-divider {
+	margin: 15px 0;
+	border: none;
+	border-top: 1px solid #ccc;
+}
+
+.footer-copy {
+	font-size: 14px;
+	color: lightgray;
+}
+
+.footer .max-width {
+	margin: 0 auto;
+}
